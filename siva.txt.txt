@@ -8,3 +8,30 @@
 <marquee>Admissions open of 2020 academic year</marquee>
 </body>
 </html>
+ls // please make sure you copied the file and displaying    
+sudo bash
+    1  cd /opt/
+    2  ls
+    3  cp /home/ec2-user/apache-tomcat-9.0.10.1.tar.gz .
+    4  ls   --- Red
+    5  chmod 777 apache-tomcat-9.0.10.1.tar.gz
+    6  ls   --- Green
+    7  tar -xzvf apache-tomcat-9.0.10.1.tar.gz
+    8  ls
+    9  cd apache-tomcat-9.0.10/
+   10  ls
+   11  cd bin
+   12  pwd
+   13  ./startup.sh      --- You may get error
+   14  yum install java
+   15  ./startup.sh
+   16  cd ..
+   17  cd webapps/
+   18  mkdir syndicate
+   19  ls
+   20  cd syndicate/
+   21  ls
+   22  vi index.html
+
+in browser
+http://ip:8090/syndicate
